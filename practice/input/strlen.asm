@@ -29,5 +29,6 @@ count_loop_begin:
 
 count_loop_end:
     mov %rcx,%rax
+    mov %rbp,%rsp
     pop %rbp
     ret

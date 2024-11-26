@@ -1,6 +1,6 @@
 # Makefile for assembling and linking 32-bit Assembly files using as and ld
 
-SRC :=  linux64.asm input.asm print.asm strlen.asm main.asm 
+SRC :=  linux64.asm input.asm print.asm strlen.asm atoi.asm main.asm 
 
 OBJ := $(SRC:.asm=.o)
 EXEC := program
